@@ -1,0 +1,52 @@
+/* Estilo Geral */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header h2 {
+    color: #1e88e5;
+    margin-top: 20px;
+}
+
+header p {
+    color: #546e7a;
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+}
+
+#task-form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.collection-header {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.collection-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column; /* Para que os botões fiquem abaixo da descrição */
+}
+
+.collection-item .task-content {
+    word-wrap: break-word;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+button, .task-timestamp {
+    margin: 5px 0;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #b0bec5;
+}
+
+#clock {
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
